@@ -3,7 +3,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-import matplotlib.pyplot as plt
+
 
 # Load the model
 model = np.load('digit_recognizer_model.npz')
